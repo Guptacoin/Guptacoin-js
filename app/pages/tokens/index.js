@@ -20,8 +20,8 @@ module.exports = function(el){
           litecoin: true
         },*/
         {
-          token: 'auroracoin',
-          auroracoin: true
+          token: 'guptacoin',
+          guptacoin: true
         }
       ],
       capitalize: function(str){
