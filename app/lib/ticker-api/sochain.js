@@ -3,7 +3,7 @@
 var xhr = require('xhr')
 
 //var apiLTCRoot = "https://bittrex.com/api/v1.1/public/getticker?market=BTC-LTC"
-var apiAURRoot = "https://bittrex.com/api/v1.1/public/getticker?market=BTC-AUR"
+var apiGPTRoot = "https://bittrex.com/api/v1.1/public/getticker?market=BTC-GPT"
 
 /*function ltcToBtc(callback){
  
@@ -23,8 +23,8 @@ var apiAURRoot = "https://bittrex.com/api/v1.1/public/getticker?market=BTC-AUR"
   })
 }*/
 
-function aurToBtc(callback){
-   var corsUri = process.env.PROXY_URL  + encodeURIComponent(apiAURRoot)
+function gptToBtc(callback){
+   var corsUri = process.env.PROXY_URL  + encodeURIComponent(apiGPTRoot)
   
   xhr({
     uri:corsUri,
@@ -72,5 +72,5 @@ function toRate(res){
 
 module.exports = {
  // ltcToBtc: ltcToBtc,
-  aurToBtc: aurToBtc
+  gptToBtc: gptToBtc
 }
