@@ -5,7 +5,7 @@ Work in progress
 
 ## Development
 
-This is a private development dedicated to Auroracoin.
+This is a private development dedicated to Guptacoin.
 
 ## License
 
