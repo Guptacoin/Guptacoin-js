@@ -12,8 +12,8 @@ module.exports = {
   //bitcoin: bitcoin,
   //testnet: bitcoin,
   //litecoin:litecoin,
-  auroracoin: {
-   default: 'AUR'
+  guptacoin: {
+   default: 'GPT'
 }
 
 }
