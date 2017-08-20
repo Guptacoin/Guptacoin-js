@@ -16,8 +16,7 @@
     - name: install npm globals
       npm: state=present global=yes name={{ item }}
       become: yes
-      with_items:
-        - aperture
+      with_items:        
         - forever
 
     - name: install dependencies
